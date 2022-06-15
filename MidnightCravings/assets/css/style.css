@@ -1,0 +1,854 @@
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+}
+
+
+/*============= NAVIGATION =============*/
+
+.domain_name {
+	color: #0fb8b8;
+}
+
+.domain_name:hover {
+	color: #f04948 !important;
+}
+
+
+
+.tool_bar {
+	top: 0;
+	position: fixed;
+	height: 30px;
+	z-index: 1000;
+	color: #fff;
+	background-color: rgba(62, 62, 62, 1);
+	padding-right: 46px;
+}
+
+
+.tool_bar button {
+
+	font-size: 14px !important;
+	padding-right: 1.2rem;
+}
+
+.tool_bar button:hover {
+	color: #F04948;
+}
+
+.top-navbar {
+	background-color: #fff;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  color: #0fb8b8;
+}
+
+.navbar_home {
+
+	top: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background-color: rgba(57, 63, 70, .9);
+}
+
+.navbar_admin {
+	top: 0 !important;
+}
+
+
+.navbar-nav li {
+	padding-right: .8rem;
+}
+
+.navbar-nav .nav-link {
+	padding-top: .8rem;
+	color: white;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+	color:#F36A5A;
+}
+
+.navbar-nav .nav-link.active {
+	background-color: #fff !important;
+}
+
+.fas.fa-bars {
+	color: white;
+	font-size: 1.6rem;
+}
+
+.mobile_logout_btn_h {
+
+	background:none!important;
+	padding-left: 0;
+    border:none; 
+    border-bottom:1px solid #444;
+    text-transform: uppercase;
+    color: #F04948;
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: .1rem
+    
+}
+
+.mobile_logout_btn_h:hover {
+	text-decoration: none;
+	color: #0FB8B8;
+}
+
+
+/*-----Remove button outline-----*/
+
+button:active, button:focus {
+	outline: 0;
+}
+
+.sub-button{
+	padding-bottom: 20px;
+}
+
+
+/*============= CAROUSEL =============*/
+
+
+.carousel-item {
+	height: 60vh;
+}
+
+.carousel-item img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+	will-change: transform;
+}
+
+.h6-responsive {
+
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: bold;
+	color: #f04948;
+}
+
+
+
+/*-----Carousel Image Content-----*/
+
+.carousel-caption {
+
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(255,255,255,0.8);
+	outline: 1px solid #3d3d3d;
+	outline-offset: -10px;
+	max-width: 35em;
+	padding: 75px;
+	bottom: initial;
+	color: #3d3d3d;
+	margin-right: auto;
+	margin-left: auto;
+	letter-spacing: .05rem;
+
+}
+
+
+/*===== HOME PAGE SEARCH BAR  =====*/
+
+.form-inline .form-control {
+	display: block;
+	width: 100%;
+}
+
+.form-inline {
+	display: block;
+	width: 100%;
+}
+
+.search_button {
+
+	border-radius: 0;
+	background-color: #f04948;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.search_button:hover {
+	background-color: #0fb8b8;
+}
+
+.search_tool input {
+	border-radius: 0;
+}
+
+
+
+
+/*========== RECIPE CARDS =========*/
+
+.card h5 {
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	font-weight: 900;
+	color: #18B0B1;
+	letter-spacing: .05rem;
+
+
+}
+
+.recipe_card p {
+	font-size: 1.1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	font-weight: 400;
+
+}
+
+.footer p {
+	font-size: 1.1rem;
+	font-weight: 300;
+}
+
+.card img {
+	width: 100%;
+	height: 15vw;
+	object-fit: cover;
+}
+
+/*===== CONTACT SECTION -> FOOTER =====*/
+
+.footer {
+	background-color: #565b61;
+}
+
+.footer a {
+	color: white;
+}
+
+.footer .fab {
+	font-size: 1.6rem;
+}
+
+.footer .fab:hover {
+	color: #0fb8b8;
+}
+
+ul.social {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.social li {
+	display: inline;
+	padding-right: .8rem;
+}
+
+.card_input_link {
+	width: 100%;
+	margin: 0;
+	padding: 10px 0 10px 0;
+	border: none;
+	background-color: #f04948;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.card_input_link:hover  {
+	background-color: #0fb8b8;
+}
+
+/*-----Contact Form-----*/
+
+footer .form-group {
+	margin-bottom: 1.3rem;
+}
+
+footer .form-control {
+	background: #53595f;
+	border-radius: 0;
+	border: .15rem solid #666b71;
+	color: white !important;
+	font-size: 1.1rem;
+}
+
+footer .form-control:focus {
+	background: #53595f;
+	border: .15rem solid #0fb8b8;
+	box-shadow: none;
+}
+
+footer .form-group input::placeholder,
+footer .form-group textarea::placeholder {
+	color: #b2b5b8;
+}
+
+footer hr.socket{
+	border-top: .2rem solid #666b71;
+}
+
+.send_mail_button:hover {
+	background-color: #0fb8b8;
+	border-color: #0fb8b8;
+	color: #fff;
+}
+
+.form_elements {
+	border-radius: 0;
+	font-size: 1.1rem;
+}
+
+.form_elements:focus {
+	border: .15rem solid #0fb8b8;
+	box-shadow: none;
+}
+
+.form_submit_button {
+	background-color: #f04948;
+	border-radius: 0;
+	border-color: #f04948;
+	text-transform: uppercase;
+}
+
+.form_submit_button:hover {
+	background-color: #0fb8b8;
+	border-color: #0fb8b8; 
+}
+
+.outline_buttons{
+	border-radius: 0;
+}
+
+.outline_buttons:hover {
+
+	background-color: #0fb8b8;
+	border: none;
+	color: #fff;
+
+}
+
+/*=========== SINGLE PAGE HEADER ===========*/
+
+
+
+.header{
+	position: relative;
+	width: 100%;
+	height: 60vh;
+	display: table;
+	background: #0b1419;
+	z-index: -1;
+}
+
+.header-container {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.inner-container img {
+	position: fixed;
+	display: table;
+	object-fit: cover;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	will-change: transform;
+}
+
+
+/*-----Single Page Header Content-----*/
+
+
+
+.page-header-caption h6 {
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #f04948;
+}
+.page-header-caption {
+
+	top:50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255,255,255,0.8);
+	outline: 1px solid #3d3d3d;
+	outline-offset: -10px;
+	padding: 75px;
+	max-width: 35em;
+	left: 50%;
+	position: sticky;
+
+}
+
+.sign_out_btn {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #0fb8b8;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+
+.sign_out_btn:hover {
+	color:#f04948;
+	text-decoration: none;
+}
+
+/*-----Single Page Recipe Specification Cards-----*/
+
+.card.spec {
+	background-color: #fff; 
+	display: inline-block;
+	border-radius: 10%;
+	width: 15em;
+	height: 8em;
+	border: none;
+	margin-left: 1em;
+	margin-top:  30px;
+}
+
+.card-title.spec {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateY(-40%);
+	transform: translateX(-50%);
+	font-size: 1.14rem;
+	text-transform: uppercase;
+
+}
+
+.card-text.spec {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.circle-icon {
+
+	width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2rem !important;
+    border: none;
+    color:#f04948;
+    background:#fff;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%)
+   
+}
+
+.circle-icon i {
+	margin-top: .8rem;
+}
+.specifications {
+	padding-top: 20px;
+}
+
+
+
+/*----- Single Page Content-----*/
+
+
+.content_wrapper td {
+	padding-top: 10px;
+	border-bottom: 1px dotted #f04948;
+	font-size: 1.2rem;
+}
+
+.content_wrapper h1 {
+	color: #f04948;
+}
+
+.content_wrapper p {
+	font-size: 1.2rem;
+}
+
+.right-wrapper ol{
+	padding-left: 15px;
+}
+
+
+/*============= ADMIN AREA =============*/
+
+
+/*----- Login Page -----*/
+
+.dashboard-title h1, h5 {
+	display: inline-block;
+}
+.dashboard-title h5{
+	color: #7E80A1;
+	padding-left: 20px;
+}
+
+
+
+.form_title{
+	display: block;
+	font-size: 30px;
+	color: #555555;
+	line-height: 1.2;
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+
+
+.masthead 
+{
+	width: 100%;  
+	min-height: 100vh;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	background: #e9faff;
+}
+.form_wrapper {
+	
+	width: 500px;
+	position: relative;
+	background: #fff;
+	border-radius: 5px;
+	padding: 50px;
+
+	box-shadow: 0 3px 20px 0px rgba(0, 212, 184, 0.2);
+}
+.form-signin input {
+	
+	height: 68px;
+	padding: 0 25px 0 25px;
+	font-size: 15px;
+	color: #666666;
+}
+
+.form-reset {}
+
+.psw_input {
+
+	border-top: none;
+}
+
+.sub_btn{
+	padding-top: 15px;
+}
+
+.pwd-reset-btn {
+	height: 50px;
+	text-transform: uppercase;
+}
+
+.login_btn{
+	border: none;
+	color: #fff !important;
+
+}
+
+.new-account-btn {
+	padding: 20px 0px 20px 0px;
+	background-color: rgb(240,73,72, .8);
+	color: #fff;
+}
+
+.new-account-btn:hover {
+	background-color: rgb(240,73,72, 1);
+}
+
+.reg-hype-link:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.text-left a {
+	color: rgb(52,58,64, 1);
+}
+
+.text-left a:hover {
+	color: rgb(15,184,184, 1);
+}
+
+.sign_up_btn {
+	margin-top: 20px;
+}
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.logo {
+	color: #0fb8b8;
+	font-weight: 600 !important;
+}
+
+.logo:hover {
+	text-decoration: underline;
+}
+
+.fa-tachometer-alt,
+.dashboard-user-icon,
+.fa-sitemap,
+.fa-book,
+.fa-envelope,
+.mobile_signout_icon {
+	font-size: 14px;
+	padding-right: 20px !important;
+}
+
+
+.table-responsive {
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+/*----- Recipes -----*/
+
+
+/* Confirm Delete - Recipes */
+
+.delete_form_recipe img {
+	height: 500px;
+}
+
+.delete_form_recipe b {
+	color: #f04948;
+}
+.delete_form_recipe input {
+	width: 200px;
+}
+
+/* Confirm Delete - Others */
+.confirm_delete_author {
+	margin-top: 5em;
+}
+
+.delete_form {
+	font-size: 1.4rem;
+}
+
+.delete_form input {
+	width: 250px;
+}
+
+.delete_form b {
+	color: #f04948;
+	text-transform: uppercase;
+}
+
+.warning-icon {
+	font-size: 5em;
+	padding-top: .1em;
+	padding-bottom: .1em;
+	color: red;
+}
+
+.delete-text {
+	font-size: 1.14rem;
+}
+
+
+/*----- Admin Panel Cards -----*/
+
+.breadcrumb {
+	background-color: #fff;
+	border-radius: 0;
+	border: none;
+}
+
+.breadcrumb a {
+	color: #547EB7;
+}
+
+.admin_cards {
+	border-radius: 0;
+	border: none;
+}
+
+.admin_cards p {
+	font-size: 4rem;
+	text-align: center;
+	margin-top: 5rem;
+	font-weight: 700;
+}
+
+.admin_cards h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: bold;
+	padding-top: 20px;
+	letter-spacing: .1rem;
+}
+
+.content_title {
+	font-size: 34px;
+}
+
+.admin_card_body {
+	background-color: #fff;
+	height: 22em;
+	position: relative;
+}
+
+.card-header {
+	background-color: #fff;
+	border: none;
+	text-align: left !important;
+}
+
+.recipe_text {
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 4.5rem;
+	font-weight: 700;
+	letter-spacing: .1rem;
+
+}
+
+.fa-chevron-left{
+	font-size: 1.4rem;
+	padding-right: 1rem;
+}
+
+.back_button{
+	width: 200px;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+.fa-envelope-open {
+	margin:0 auto;
+	margin-top: 40px;
+}
+
+.img-circle {
+	border-radius:200px; 
+	height:200px; 
+	width:200px; 
+	background: 
+	#F8FAF5; 
+	margin:0 auto;
+	margin-bottom: 20px;
+}
+
+.login_button {
+	padding: 50px !important;
+}
+
+.mobile_logout_btn {
+	padding: 24px;
+	color: #B8B8B8;
+	font-size: 14px;
+}
+
+.mobile_logout_btn:hover {
+	color: #F36A5A;
+	text-decoration: none;
+}
+
+
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+
+	.mobile_toolbar_nav {
+		display: none;
+	}
+
+	.mobile_logout_btn_h{
+		display: none;
+	}
+
+
+}
+
+@media (max-width: 768px) {
+
+	.admin_desktop_toolbar {
+		display: none;
+	}
+
+	.tool_bar {
+		display: none;
+	}
+
+	.navbar_home {
+		top: 0;
+	}
+
+	.burger {
+		font-size: 25px !important;
+		margin-right: -20px;
+	}
+
+	.recipes_data {
+		display: none;
+	}
+
+	.categories_th_data {
+		width: 20%;
+	}
+
+	.spec-padding {
+		padding-top: 20px;
+	}
+
+	.recipe_text {
+		font-size: 2rem;
+
+	}
+	.admin_cards h2{
+		font-size: 1.5rem;
+	}
+
+	.admin_cards p {
+		padding-top: 30px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
